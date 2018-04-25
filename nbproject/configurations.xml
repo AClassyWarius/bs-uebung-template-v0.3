@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3"
+        name="0">
+      <df name="src">
+        <in>blockdevice.cpp</in>
+        <in>mkfs.myfs.cpp</in>
+        <in>mount.myfs.c</in>
+        <in>myfs.cpp</in>
+        <in>wrap.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3/Makefile</itemPath>
+      <itemPath>/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3/nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3</Elem>
+  </sourceRootList>
+  <projectmakefile>/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++11"/>
+        <element flagsID="1" commonFlags="-std=c99"/>
+        <element flagsID="2" commonFlags="-std=gnu++11"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3/mkfs.myfs</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/i386</pElem>
+              <pElem>src</pElem>
+              <pElem>includes</pElem>
+              <pElem>.</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3/src/blockdevice.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/i386</pElem>
+            <pElem>src</pElem>
+            <pElem>includes</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3/src/mkfs.myfs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>includes</pElem>
+            <pElem>/usr/local/include/osxfuse/fuse</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FUSE_USE_VERSION=26</Elem>
+            <Elem>_DARWIN_USE_64_BIT_INODE</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3/src/mount.myfs.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3/src/myfs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>includes</pElem>
+            <pElem>/usr/local/include/osxfuse/fuse</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FUSE_USE_VERSION=26</Elem>
+            <Elem>_DARWIN_USE_64_BIT_INODE</Elem>
+            <Elem>_FILE_OFFSET_BITS=64</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3/src/wrap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/i386</pElem>
+            <pElem>src</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

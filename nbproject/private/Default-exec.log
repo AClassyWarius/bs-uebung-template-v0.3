@@ -1,0 +1,26 @@
+called: /usr/bin/g++
+	/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3
+	/usr/bin/g++
+	-c
+	-std=gnu++11
+	-g
+	-Wall
+	-Iincludes
+	-DFUSE_USE_VERSION=26
+	-o
+	obj/blockdevice.o
+	src/blockdevice.cpp
+
+called: /usr/bin/g++
+	/Users/mariuskemmling/NetBeansProjects/bs-uebung-template-v0.3
+	/usr/bin/g++
+	-c
+	-std=gnu++11
+	-g
+	-Wall
+	-Iincludes
+	-DFUSE_USE_VERSION=26
+	-o
+	obj/myfs.o
+	src/myfs.cpp
+

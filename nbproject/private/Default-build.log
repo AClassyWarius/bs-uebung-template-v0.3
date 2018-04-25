@@ -1,0 +1,14 @@
+mkdir -p obj
+g++ -c -std=gnu++11 -g -Wall -Iincludes -DFUSE_USE_VERSION=26 `pkg-config fuse --cflags` -o obj/blockdevice.o  src/blockdevice.cpp
+/bin/sh: pkg-config: command not found
+g++ -c -std=gnu++11 -g -Wall -Iincludes -DFUSE_USE_VERSION=26 `pkg-config fuse --cflags` -o obj/myfs.o  src/myfs.cpp
+/bin/sh: pkg-config: command not found
+In file included from src/myfs.cpp:13:
+In file included from includes/myfs.h:12:
+In file included from /usr/local/include/fuse.h:9:
+In file included from /usr/local/include/fuse/fuse.h:26:
+/usr/local/include/fuse/fuse_common.h:32:2: error: Please add -D_FILE_OFFSET_BITS=64 to your compile flags!
+#error Please add -D_FILE_OFFSET_BITS=64 to your compile flags!
+ ^
+1 error generated.
+make: *** [obj/myfs.o] Error 1
